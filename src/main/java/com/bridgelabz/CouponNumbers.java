@@ -10,7 +10,7 @@ class CouponNumbers {
         CouponGenerate(num);
     }
 
-    static void CouponGenerate(int num) {
+    private static void CouponGenerate(int num) {
         char[] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789".toCharArray();
         int max = 100000000;
         for (int i = 0; i <= num; i++) {
